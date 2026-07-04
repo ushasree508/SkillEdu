@@ -14,7 +14,7 @@ import jakarta.mail.internet.*;
 @WebServlet("/ForgotPasswordServlet")
 public class ForgotPasswordServlet extends HttpServlet {
 
-    private static final String EMAIL_FROM = "sasikondapavuluri4446@gmail.com";
+    private static final String EMAIL_FROM = "ushasreeorsu56@gmail.com";
     private static final String APP_PASSWORD = "dbjl ziyk rpbb cojk";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
