@@ -13,8 +13,8 @@ public class RegisterServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private static final String DB_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER = "sasi";
-    private static final String DB_PASS = "sasi123";
+    private static final String DB_USER = "usha";
+    private static final String DB_PASS = "usha123";
 
     private static final String INSERT_SQL =
         "INSERT INTO USERS (FULL_NAME, USERNAME, EMAIL, PASSWORD_HASH) VALUES (?, ?, ?, ?)";
