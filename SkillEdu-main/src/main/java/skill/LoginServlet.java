@@ -13,8 +13,8 @@ public class LoginServlet extends HttpServlet {
 
     // Database Configuration
     private static final String DB_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER = "sasi";
-    private static final String DB_PASS = "sasi123";
+    private static final String DB_USER = "usha";
+    private static final String DB_PASS = "usha123";
 
     private static final String AUTH_SQL = "SELECT USERNAME, PASSWORD_HASH, FULL_NAME, EMAIL FROM USERS WHERE USERNAME = ?";
 
