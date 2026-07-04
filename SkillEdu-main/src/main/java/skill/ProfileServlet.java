@@ -11,8 +11,8 @@ import javax.servlet.http.*;
 public class ProfileServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final String DB_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER = "sasi";
-    private static final String DB_PASS = "sasi123";
+    private static final String DB_USER = "usha";
+    private static final String DB_PASS = "usha123";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
