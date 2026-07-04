@@ -10,8 +10,8 @@ import javax.servlet.annotation.*;
 public class InternshipApplyServlet extends HttpServlet {
     
     private static final String DB_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER = "sasi";
-    private static final String DB_PASSWORD = "sasi123";
+    private static final String DB_USER = "usha";
+    private static final String DB_PASSWORD = "usha123";
     
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) 
