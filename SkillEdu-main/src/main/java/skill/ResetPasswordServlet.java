@@ -37,8 +37,8 @@ public class ResetPasswordServlet extends HttpServlet {
 
             Connection con = DriverManager.getConnection(
             		"jdbc:oracle:thin:@localhost:1521:XE",
-            	    "sasi",
-            	    "sasi123");
+            	    "usha",
+            	    "usha123");
 
             PreparedStatement ps = con.prepareStatement(
                     "UPDATE users SET PASSWORD_HASH=? WHERE email=?");
